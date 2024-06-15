@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,13 +18,13 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 10px;
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: #47a7ec;
 }
 
 .logo {
