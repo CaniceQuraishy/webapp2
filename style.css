@@ -1,12 +1,20 @@
-body {
+* {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #333;
-    color: #ffffff;
+body {
+    min-height: 100vh;
+    background:url('') no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+
+.header {
+    background-color: #92cce4;
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,5 +36,6 @@ nav a:hover {
 }
 
 .logo {
-    margin-right: auto; /* Pushes the logo to the far left */
+    margin-right: auto;
+    
 }
