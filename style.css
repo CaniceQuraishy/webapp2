@@ -10,6 +10,9 @@ body {
     background:url('') no-repeat;
     background-size:cover ;
     background-position: center;
+    font-family: "Outfit";
+   
+
 }
 
 .header {
@@ -38,4 +41,21 @@ nav a:hover {
 .logo {
     margin-right: auto;
     
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(#b169ff,#fff7f9);
+
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+
 }
