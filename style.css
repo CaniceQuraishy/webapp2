@@ -82,6 +82,7 @@ nav a:hover {
     border:none;
     outline: none;
     padding-left: 25px;
+    font-size: 16px;
     font-weight: 500;
     color:#000000;
     border-radius: 50px;
@@ -103,17 +104,42 @@ nav a:hover {
 }
 
 .contact-left button{
-    display: flex;
-    align-items:center;
-    padding:15px 30px;
-    font-size:16px;
-    color:#fff;
-    gap:10px;
-    border: none;
-    border-radius:50px;
-    background:linear-gradient(270deg,#47a7ec,#b169ff);
-    cursor:pointer;
+  position: relative;
+  padding: 5px 25px;
+  font-size: 19px;
+  border: 1px solid #002B5B;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.5s;
+  z-index: 1;
 }
+
+.contact-left button:hover {
+    transform: scale(1.1);
+    color: #fff;
+    transition: all 0.5s;
+  }
+  
+.contact-left button::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: 0%;
+    height: 100%;
+    border-radius: 15px;
+    background: linear-gradient(#47a7ec,#b169ff);
+    transition: all 0.5s;
+    z-index: -1;
+  }
+  
+.contact-left button:hover::after {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    transition: all 0.5s;
+  }
 
 .contact-left button img{
     height: 15px;
