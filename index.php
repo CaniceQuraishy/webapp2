@@ -14,7 +14,7 @@
 
 <!--Body Section-->
 <body>
-    <header class="header">
+<header class="header">
         <a href="index.html"> <img src="Resources/WebsiteLogo.png" alt="logo" width="90" height="50"> </a>
 
     <nav class ="navbar">
