@@ -24,21 +24,6 @@ body {
     padding: 10px 20px;
 }
 
-/*Nav Bar*/
-nav {
-    display: flex;
-}
-
-nav a {
-    color: #000000;
-    text-decoration: none;
-    padding: 10px;
-}
-
-nav a:hover {
-    background-color: #47a7ec;
-}
-
 .logo {
     margin-right: auto;
     
