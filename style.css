@@ -10,9 +10,9 @@ body {
     background-size: cover;
     background-position: center;
     font-family: "Outfit";
-    background: none; /* Remove background image */
 }
 
+/*Header*/
 .header {
     background-color: #92cce4;
     color: #fff;
@@ -27,7 +27,7 @@ nav {
     display: flex;
 }
 
-nav a {
+nav a{
     color: #000000;
     text-decoration: none;
     padding: 10px;
@@ -47,7 +47,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #fff !important; /* Ensure white background */
+    background-color: #fff; /* Removed !important */
 }
 
 .contact-left {
@@ -68,7 +68,7 @@ nav a:hover {
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #b169ff;
+    background-color: #000000;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -76,7 +76,7 @@ nav a:hover {
 .contact-inputs {
     width: 400px;
     height: 50px;
-    border: none;
+    border: 1px solid #000000;
     outline: none;
     padding-left: 25px;
     font-size: 16px;
@@ -102,19 +102,18 @@ nav a:hover {
 .contact-left button {
     position: relative;
     padding: 5px 25px;
-    font-size: 1px;
+    font-size: 14px; /* Adjusted font size */
     border: 1px solid #002B5B;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 15px;
-    transition: all 0.5s;
+    transition: transform 0.5s; /* Removed redundant transition */
     z-index: 1;
 }
 
 .contact-left button:hover {
     transform: scale(1.1);
-    color: #fff;
-    transition: all 0.5s;
+    color: #ff0000;
 }
 
 .contact-left button::after {
@@ -125,8 +124,8 @@ nav a:hover {
     width: 0%;
     height: 100%;
     border-radius: 15px;
-    background-color: #fff;
-    transition: all 0.5s;
+    background-color: #cc00ff49;
+    transition: width 0.5s, top 0.5s, left 0.5s; /* Adjusted transitions */
     z-index: -1;
 }
 
@@ -134,22 +133,27 @@ nav a:hover {
     top: 0%;
     left: 0%;
     width: 100%;
-    transition: all 0.5s;
 }
 
 .contact-left button img {
-    height: 15px;
+    height: 15px; /* Consider using font-size or width instead */
 }
 
 .contact-right img {
-    width: 500px;
+    max-width: 100%; /* Responsive image */
 }
 
 @media (max-width: 800px) {
     .contact-inputs {
-        width: 100%; /* Fix width issue on smaller screens */
+        width: 100%;
     }
     .contact-right {
         display: none;
     }
+}
+
+
+/*CSS Scrolling*/
+html {
+    scroll-behavior: smooth;
 }

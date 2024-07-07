@@ -57,33 +57,33 @@
     </button>
       </div>
 
-      <!--Sidebar Body-->
-      <div class="offcanvas-body">
+          <!--Sidebar Body-->
+          <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
           <li class="nav-item mx-2">
-            <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.php#home">Home</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="about.php">About</a>
+            <a class="nav-link" href="about.php#about">About</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="resume.php">Resume</a>
+            <a class="nav-link" href="resume.php#resume">Resume</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="projects.php">Projects</a>
+            <a class="nav-link" href="projects.php#projects">Projects</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="services.php">Services</a>
+            <a class="nav-link" href="services.php#services">Services</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="blog.php">Blog</a>
+            <a class="nav-link" href="blog.php#blog">Blog</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="contact.php">Contact Us</a>
+            <a class="nav-link" href="contact.php#contact">Contact Us</a>
           </li>
         </ul>
 
+      
         <!--Login/Sign Up-->
 
       </div>
@@ -91,6 +91,10 @@
   </div>
 </nav>
 </header>
- 
+
+<section id="project">
+<!--Content-->
+
+</section>
 </body>
 </html>
