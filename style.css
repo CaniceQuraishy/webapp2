@@ -7,10 +7,10 @@
 
 body {
     min-height: 100vh;
-    background-color: white; /* Set background color to white */
     background-size: cover;
     background-position: center;
     font-family: "Outfit";
+    background: none; /* Remove background image */
 }
 
 .header {
@@ -22,7 +22,7 @@ body {
     padding: 10px 20px;
 }
 
-/*Nav Bar*/
+/* Nav Bar */
 nav {
     display: flex;
 }
@@ -41,13 +41,13 @@ nav a:hover {
     margin-right: auto;
 }
 
-/*CSS for Contact Us Form*/
+/* CSS for Contact Us Form */
 .contact-container {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #fff; /* Set background color to white */
+    background-color: #fff !important; /* Ensure white background */
 }
 
 .contact-left {
@@ -147,7 +147,7 @@ nav a:hover {
 
 @media (max-width: 800px) {
     .contact-inputs {
-        width: 80vw; /* Adjusted for responsiveness */
+        width: 100%; /* Fix width issue on smaller screens */
     }
     .contact-right {
         display: none;
