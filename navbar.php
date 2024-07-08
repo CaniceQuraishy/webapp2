@@ -16,6 +16,7 @@
       html{
         scrollbar-width: normal;
         scrollbar-color:#fff #92cce4;
+        scroll-padding-top:100px;
       }
     </style>
     
