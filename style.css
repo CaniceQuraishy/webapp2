@@ -47,7 +47,7 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #fff; /* Removed !important */
+    background-color: #fff;
 }
 
 .contact-left {
@@ -59,7 +59,7 @@ nav a:hover {
 
 .contact-left-title h2 {
     font-weight: 600;
-    color: #b169ff;
+    color: #4d0071;
     font-size: 40px;
     margin-bottom: 5px;
 }
@@ -68,7 +68,7 @@ nav a:hover {
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #000000;
+    background-color: #4d0071;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -113,7 +113,7 @@ nav a:hover {
 
 .contact-left button:hover {
     transform: scale(1.1);
-    color: #ff0000;
+    color: #ffffff;
 }
 
 .contact-left button::after {
@@ -124,7 +124,7 @@ nav a:hover {
     width: 0%;
     height: 100%;
     border-radius: 15px;
-    background-color: #cc00ff49;
+    background-color: #4d0071;
     transition: width 0.5s, top 0.5s, left 0.5s; /* Adjusted transitions */
     z-index: -1;
 }
@@ -152,8 +152,3 @@ nav a:hover {
     }
 }
 
-
-/*CSS Scrolling*/
-html {
-    scroll-behavior: smooth;
-}
