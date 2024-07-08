@@ -10,7 +10,7 @@ body {
     background-size: cover;
     background-position: center;
     font-family: "Outfit";
-    margin:0;
+    margin: 0px;
     /*padding-top:5em; - Not needed as we are using Sticky*/ 
 }
 
