@@ -157,18 +157,3 @@ nav a:hover {
         display: none;
     }
 }
-
-
-/*Custom Scroll Bar*/
-::-webkit-scrollbar{
-    width:15px;
-    height: 1px;
-}
-
-::-webkit-scrollbar-track{
-    background: #92cce4;
-}
-
-::-webkit-scrollbar-thumb{
-    background: #fff;
-}
