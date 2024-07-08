@@ -15,28 +15,28 @@
             <form action="" method="post">
                 <div class ="field input">
                     <label for="username">Username</label>
-                    <input type="text" name="username" id="username" autocomplete="off" required>
+                    <input type="text" name="username" id="username" autocomplete="off" >
                 </div>
 
                 <div class ="field input">
                     <label for="username">Email</label>
-                    <input type="email" name="email" id="email" autocomplete="off" required>
+                    <input type="email" name="email" id="email" autocomplete="off" >
                 </div>
                 
 
                 <div class ="field input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" autocomplete="off" required>
+                    <input type="password" name="password" id="password" autocomplete="off" >
                 </div>
 
                 <div class ="field input">
                     <label for="password">Confrim Password</label>
-                    <input type="password" name="conpassword" id="conpassword" autocomplete="off" required>
+                    <input type="password" name="conpassword" id="conpassword" autocomplete="off" >
                 </div>
 
                 <div class ="field">
 
-                    <input type="submit" class="btn" name="submit" value="Sign Up" required>
+                    <input type="submit" class="btn" name="submit" value="Sign Up" >
                 </div>
 
                 <div class="links">
@@ -73,7 +73,7 @@
     }
     else 
     {
-        echo"Please fill in the form";
+        echo"<script>alert('Complete filling in the form first');</script>";
     }
     }
 ?>
