@@ -21,6 +21,11 @@
                     <input type="password" name="password" id="password" required>
                 </div>
 
+                <div class ="field input">
+                    <label for="password">Confrim Password</label>
+                    <input type="password" name="conpassword" id="conpassword" autocomplete="off" required>
+                </div>
+
                 <div class ="field">
 
                     <input type="submit" class="btn" name="submit" value="Login" required>

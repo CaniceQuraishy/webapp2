@@ -1,3 +1,5 @@
+<?php include("connection.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,6 +29,11 @@
                     <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
 
+                <div class ="field input">
+                    <label for="password">Confrim Password</label>
+                    <input type="password" name="conpassword" id="conpassword" autocomplete="off" required>
+                </div>
+
                 <div class ="field">
 
                     <input type="submit" class="btn" name="submit" value="Sign Up" required>
@@ -39,3 +46,25 @@
         </div>
     </div>
 </html>
+
+<?php 
+    if($_POST['submit']){
+
+        $username   = $_POST['username'];
+        $email      = $_POST['email'];
+        $pwd        = $_POST['password'];
+        $cpwd       = $_POST['conpassword'];
+        $query = "INSERT INTO form values('$username','$email','$pwd','$cpwd')";
+
+        $data = mysqli_query($conn,$query);
+
+        if($data)
+        {
+            echo "Data Inserted into DB";
+        
+        }
+        else{
+            echo "Data Not Inserted into DB";
+        }
+    }
+?>

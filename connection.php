@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
     $servername = "localhost";
     $username ="root";
     $password ="";
@@ -10,9 +11,9 @@
 
     if ($conn)
     {
-        echo"Connection ok";
+        //echo"Connection ok";
     }
     else{
-        echo"Connection failed";
+        echo"Connection failed".mysqli_connect_error();
     }
 ?>
