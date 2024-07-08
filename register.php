@@ -13,18 +13,18 @@
             <form action="" method="post">
                 <div class ="field input">
                     <label for="username">Username</label>
-                    <input type="text" name="username" id="username" required>
+                    <input type="text" name="username" id="username" autocomplete="off" required>
                 </div>
 
                 <div class ="field input">
                     <label for="username">Email</label>
-                    <input type="email" name="email" id="email" required>
+                    <input type="email" name="email" id="email" autocomplete="off" required>
                 </div>
                 
 
                 <div class ="field input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
 
                 <div class ="field">
