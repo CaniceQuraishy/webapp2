@@ -21,8 +21,6 @@
     
 </head>
 
-<!--Body Section-->
-<body>
     <!--Navbar-->
     <!--Logo-->
     <header class="header">
