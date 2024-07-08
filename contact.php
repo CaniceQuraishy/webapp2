@@ -4,6 +4,7 @@ $page="contact";
 include_once("navbar.php");
 ?>
 <html>
+  
 <body>
 <section id="contact">
 <!--Contact Us Form-->

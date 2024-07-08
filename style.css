@@ -11,7 +11,7 @@ body {
     background-position: center;
     font-family: "Outfit";
     margin:0;
-    padding-top:5em;
+    /*padding-top:5em; - Not needed as we are using Sticky*/ 
 }
 
 /*Header*/
@@ -20,9 +20,9 @@ body {
     color: #fff;
     display: flex;
     justify-content: space-between;
-    position:fixed;
+    position:sticky;
     top:0;
-    width:100%;
+    /*width:100%; - Not needed as we are using Sticky*/ 
     height:5em;
     align-items: center;
     padding: 10px 20px;
