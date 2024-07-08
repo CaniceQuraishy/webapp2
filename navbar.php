@@ -65,7 +65,7 @@
 
       <!--Sidebar Body-->
       <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
           <li class="nav-item mx-2">
             <a class="nav-link active" aria-current="page" href="homepage.php#home">Home</a>
           </li>
@@ -90,6 +90,12 @@
         </ul>
       
         <!--Login/Sign Up-->
+        <div class="d-flex justify-content-center align-items-center gap-3">
+            <a
+            href="display.php"
+            class="text-white text-decoration-none px-3 py-1 rounded-4"
+            style="background-color:black"
+            >Admin Panel</a>
 
       </div>
     </div>
