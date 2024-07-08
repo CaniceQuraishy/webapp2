@@ -25,7 +25,7 @@
     <!--Navbar-->
     <!--Logo-->
     <header class="header">
-        <a href="index.php"> <img src="Resources/WebsiteLogo.png" alt="logo" width="90" height="50"> </a>
+        <a href="homepage.php"> <img src="Resources/WebsiteLogo.png" alt="logo" width="90" height="50"> </a>
         <nav class="navbar navbar-expand-lg navbar-dark-bg-transparent">
     <div class="container-fluid">
     <!--<a class="navbar-brand" href="#">Offcanvas navbar</a>-->
@@ -88,7 +88,6 @@
             <a class="nav-link" href="contact.php#contact">Contact Us</a>
           </li>
         </ul>
-
       
         <!--Login/Sign Up-->
 

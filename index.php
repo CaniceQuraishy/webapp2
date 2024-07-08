@@ -1,18 +1,36 @@
-<?php
-$title="Home";
-$page="home";
-include_once("navbar.php");
-?>
-<html>
-<body>
-<section id="home">
-<!--Content-->
-<h1>Welcome to my website </h1>
-<img src="Resources/facecard.png" alt="image">
-<br>
-<br>
-<p>I am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps Engineer.I am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps EngineerI am Canice Musa Quraishy, a 19 year old student currently pursing my undergraduate in Strathmore Univeristy with aims of becoming a DevOps Engineer</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
 
-</section>
+<body>
+    <div class="container">
+        <div class="box form-box">
+            <header>Login</header>
+            <form action="" method=""post>
+                <div class ="field input">
+                    <label for="username">Username</label>
+                    <input type="text" name="password" id="password" required>
+                </div>
+
+                <div class ="field input">
+                    <label for="password">Password</label>
+                    <input type="password" name="username" id="username" required>
+                </div>
+
+                <div class ="field">
+                    <input type="submit" name="submit" value="Login" required>
+                </div>
+
+                <div class="links">
+                    Don't have account? <a href="register.php">Sign Up Now</a>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
