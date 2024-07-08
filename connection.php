@@ -6,6 +6,8 @@
 
     $conn= mysqli_connect($servername,$username,$password,$dbname);
 
+    $mysqli= new mysqli("localhost", "root", "","signupform");
+
     if ($conn)
     {
         echo"Connection ok";
