@@ -54,8 +54,12 @@
         $email      = $_POST['email'];
         $pwd        = $_POST['password'];
         $cpwd       = $_POST['conpassword'];
-        $query = "INSERT INTO form values('$username','$email','$pwd','$cpwd')";
 
+        if($username !="" && $email !="" && $pwd !="" && $cpwd !="")
+        {
+
+
+        $query = "INSERT INTO form values('$username','$email','$pwd','$cpwd')";
         $data = mysqli_query($conn,$query);
 
         if($data)
@@ -66,5 +70,10 @@
         else{
             echo "Data Not Inserted into DB";
         }
+    }
+    else 
+    {
+        echo"Please fill in the form";
+    }
     }
 ?>
