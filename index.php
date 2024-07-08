@@ -7,11 +7,10 @@
     <title>Login</title>
 </head>
 
-<body>
-    <div class="container">
+    <div class="login-container">
         <div class="box form-box">
             <header>Login</header>
-            <form action="" method=""post>
+            <form action="" method="post">
                 <div class ="field input">
                     <label for="username">Username</label>
                     <input type="text" name="password" id="password" required>
@@ -23,7 +22,8 @@
                 </div>
 
                 <div class ="field">
-                    <input type="submit" name="submit" value="Login" required>
+
+                    <input type="submit" class="btn" name="submit" value="Login" required>
                 </div>
 
                 <div class="links">
@@ -32,5 +32,4 @@
             </form>
         </div>
     </div>
-</body>
 </html>
