@@ -1,7 +1,7 @@
 <?php
 $title = "Contact";
 $page = "contact";
-include_once("navbar.php");
+include("navbar.php");
 ?>
 <html lang="en">
 <head>

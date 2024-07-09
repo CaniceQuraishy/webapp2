@@ -1,7 +1,7 @@
 <?php
 $title = "Blog";
 $page = "blog";
-include_once("navbar.php");
+include("navbar.php");
 
 $articles = [
     [

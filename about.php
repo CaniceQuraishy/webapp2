@@ -1,7 +1,7 @@
 <?php
 $title = "About";
 $page = "about";
-include_once("navbar.php");
+include("navbar.php");
 ?>
 
 <!DOCTYPE html>
