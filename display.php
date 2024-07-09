@@ -1,3 +1,17 @@
+<html>
+<head>
+    <title>Display</title>
+    <style>
+        body
+        {
+            background:#92cce4
+        }
+        table{
+            background-color: #fff;
+        }
+        </style>
+</head>
+
 <?php
 include("connection.php");
 error_reporting(0);
@@ -40,3 +54,4 @@ else{
 ?>
 </table>
 </center>
+</html>
