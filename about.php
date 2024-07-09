@@ -25,7 +25,7 @@ include("navbar.php");
             font-size: 1.2em;
             color: #555;
             margin: 0 auto 20px;
-            max-width: 800px; /* Ensure text doesn't spread too wide */
+            max-width: 800px; 
             line-height: 1.8;
             padding: 0 20px;
         }
