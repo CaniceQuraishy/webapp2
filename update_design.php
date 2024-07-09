@@ -1,4 +1,12 @@
-<?php include("connection.php"); ?>
+<?php include("connection.php"); 
+$id=  $_GET['id'];
+
+$query = "SELECT * FROM form where id='$id'";
+$data = mysqli_query($conn, $query);
+
+$total = mysqli_num_rows($data);
+$result = mysqli_fetch_assoc($data);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,37 +14,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Register</title>
+    <title>Update</title>
 </head>
 
     <div class="login-container">
         <div class="box form-box">
-            <header>Sign Up</header>
+            <header>Update Details</header>
             <form action="" method="post">
                 <div class ="field input">
                     <label for="username">Username</label>
-                    <input type="text" name="username" id="username" autocomplete="off" >
+                    <input type="text" value="<?php echo $result['username']?>" name="username" id="username" autocomplete="off" >
                 </div>
 
                 <div class ="field input">
                     <label for="username">Email</label>
-                    <input type="email" name="email" id="email" autocomplete="off" >
+                    <input type="email" value="<?php echo $result['email']?>" name="email" id="email" autocomplete="off" >
                 </div>
                 
 
                 <div class ="field input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" autocomplete="off" >
+                    <input type="password" value="<?php echo $result['password']?>" name="password" id="password" autocomplete="off" >
                 </div>
 
                 <div class ="field input">
                     <label for="password">Confrim Password</label>
-                    <input type="password" name="conpassword" id="conpassword" autocomplete="off" >
+                    <input type="password" value="<?php echo $result['conpassword']?>" name="conpassword" id="conpassword" autocomplete="off" >
                 </div>
 
                 <div class ="field">
 
-                    <input type="submit" class="btn" name="submit" value="Sign Up" >
+                    <input type="submit" class="btn" name="update" value="Update" >
                 </div>
 
                 <div class="links">
