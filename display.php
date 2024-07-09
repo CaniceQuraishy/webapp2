@@ -15,11 +15,12 @@ $total = mysqli_num_rows($data);
 if($total != 0)
 {
     ?>
-    <table>
+    <h2 align="center">Displaying All Records</h2>
+    <center><table border="1" cellspacing="7" width=85%>
     <tr>
-        <th> Username</th>
-        <th> Email</th>
-        <th> Password</th>
+        <th width="5%"> Username</th>
+        <th width="5%"> Email</th>
+        <th width="5%"> Password</th>
 </tr>
 
 
@@ -38,3 +39,4 @@ else{
 }
 ?>
 </table>
+</center>
